@@ -69,8 +69,9 @@
                 }
             }
         }
-
-        addTitle("Content");
-        createList(headings);
+        if (headings.length > 0){
+            addTitle("Content");
+            createList(headings);
+        }
     }
 }());
