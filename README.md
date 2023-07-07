@@ -7,6 +7,17 @@ This code is based on one created for a microblog, so that some long or complica
 
 
 
+## Features
+
+- It is compatible if the headings already have an id attribute.
+- The next list level in the TOC is always the next one in the hierarchy regardless of the HTML tag. For example, if the text jumps from an h2 to an h4, the list will display that h4 as an h3.
+
+
+## Demo
+
+A folder with some sample HTML texts has been created.
+
+
 ## Contributing
 
 It is very likely the code can be better than how it is when published. Contributions are always welcome!
@@ -26,6 +37,7 @@ Please note the actual text with the HTML heading tags (h2, h3...) must be loade
 
 One can customise the title, the list type and the headings range. The default values are, respectively: "Contents", unordered list (ul) and h2-h6.
     
+
 ## Lessons Learned
 
 Learnings:

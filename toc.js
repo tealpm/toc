@@ -1,5 +1,9 @@
 
-// Requirements in the html: empty element with id "toc"
+/*
+Requirements in the HTML: 
+- an empty element like a <div> with the id="toc"
+- the HTML heading elements must load before this function
+*/ 
 
 (function(){
     if (document.getElementById("toc")){
