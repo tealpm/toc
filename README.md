@@ -9,13 +9,19 @@ This code is based on one created for a microblog, so that some long or complica
 
 ## Features
 
-- It is compatible if the headings already have an id attribute.
-- The next list level in the TOC is always the next one in the hierarchy regardless of the HTML tag. For example, if the text jumps from an h2 to an h4, the list will display that h4 as an h3.
+- If the headings already have a value for the id attribute, it will not be overwritten.
+
+- The next list level in the TOC is always the next one in the hierarchy regardless of the HTML tag. For example, if the text jumps from an h2 to an h4, the list will display the h4 as an h3.
 
 
 ## Demo
 
 A folder with some sample HTML texts has been created.
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
 ## Contributing
