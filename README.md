@@ -3,7 +3,7 @@
 
 It's a function that looks for an id "toc" in an HTML page and populates it with a hierarchical list of all the headings previously loaded in the page, if any.
 
-This code is based on one created for a microblog, so that some long or complicated posts could have a table of contents. I am sharing it as a standalone in case it is useful for others.
+This code is based on one created for a microblog, so that some long or complicated posts could have a table of contents. 
 
 
 
@@ -39,6 +39,8 @@ There are two options to link this JavaScript code to an HTML page:
 
 With a few modifications, it could be converted into a module to import.
 
+## Deployment
+
 Please note the actual text with the HTML heading tags (h2, h3...) must be loaded before the script runs. Therefore, the script tag should be placed after the text or the function called once the text has loaded.
 
 One can customise the title, the list type and the headings range. The default values are, respectively: "Contents", unordered list (ul) and h2-h6.
@@ -56,7 +58,8 @@ Challenges:
 
 - Variables needed to be remembered by different parts of the code. The chosen structure is certainly improvable.
 
-- I intended to use the language built-in attributes for the links in the TOC. However, I could not make scrossY, offsetTop or similar to work properly. I ended up dynamically generating a (dataset) ID to each heading & scrollIntoView sends there.
+- I intended to use the language built-in attributes for the links in the TOC. However, I could not make scrossY, offsetTop or similar to work properly. I ended up dynamically generating a dataset ID to each heading & then scrollIntoView sends there.
 
 
-#### Readme created in readme.so - Thanks
+#### Readme created in readme.so 
+Thanks
